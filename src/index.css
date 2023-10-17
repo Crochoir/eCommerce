@@ -1,13 +1,158 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Navbar styles */
+
+
+.brand {
+    position: absolute;
+    left: 42%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Landing page styles */
+
+.landing-div {
+
+    justify-content: center;
+    height: 600px;
+    /*background-image: url('images/cottage-core.jpg'); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: transparent;
+    background-attachment:fixed;
+    z-index: 1;
+}
+
+.title {
+ position: relative;
+ top: 40%;
+ left: 60%;
+ color: #b6c649ff;
+}
+
+.title-ital {
+    color: #423629ff;
+}
+
+.title-btn {
+    padding-top: 53px;
+    margin: 30px;
+    padding: 0 0 0 0;
+    position: relative;
+    top: 10%;
+    left: 40%;
+    font-size: 2em;
+    background-color: #423629ff;
+    opacity: .6;
+    border-radius: 50px;
+    height: 250px;
+    width: 250px;
+    color: #4f5d2fff;
+    text-align: center;
+}
+
+.title-btn-right {
+  padding-top: 10%;
+  margin: 30px;
+  padding: 0 0 0 0;
+  position: relative;
+  top: 10%;
+  font-size: 2em;
+  background-color: #423629ff;
+  opacity: .6;
+  border-radius: 50px;
+  height: 250px;
+  width: 250px;
+  color: #4f5d2fff;
+  text-align: center;
+}
+
+.title-btn:hover {
+  opacity: 1;
+}
+
+.title-btn-right:hover {
+  opacity: 1;
+}
+
+.secondary-div {
+    height: 400px;
+
+}
+
+#root {
+    background-image: url('images/cottage-core.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 1000px;
+    background-color: #4f5d2fff;
+    z-index: 99;
+}
+
+/* Login form styles */
+.login-page{
+    background-image: url('images/cottage-core.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: transparent;
+    background-attachment:fixed;
+
+}
+
+@media screen and (max-width: 600px) {
+  .login-form{
+    top: 30%;
+  }
+}
+
+
+.login-form {
+    border-radius: 15%;
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    color: #423629ff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.login-items {
+    position: relative;
+    top: 20%;
+}
+
+.login-btn {
+    position: relative;
+    top: 20%;
+    left: 40%;
+}
+
+.select{
+  background-color: #4f5d2fff;
+  z-index: 99;
+  margin: 10%;
+  height: 700px;
+  border-radius: 100px;
+
+}
+
+.App {
+
+}
+
+/* CSS HEX */
+
+.null {
+--dark-lava: #423629ff;
+--dark-moss-green: #4f5d2fff;
+--battleship-grey: #7d7e75ff;
+--android-green: #b6c649ff;
+--orange-pantone: #fe5f00ff;
 }

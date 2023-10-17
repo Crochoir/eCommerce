@@ -1,0 +1,16 @@
+.login-form {
+    border-radius: 15%;
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    color: #423629ff;
+    position: absolute;
+    top: 30% !important;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.secondary-div {
+  display: none;
+}
